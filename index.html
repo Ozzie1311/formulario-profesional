@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>Formulario Profesional</title>
 </head>
 <body>
   <main>
@@ -70,22 +70,27 @@
       </div>
 
       <!-- Grupo: Términos y condiciones -->
-       <div class="formulario__grupo" id="grupo__terminos">
+       <div class="formulario__grupo formulario__grupo-terminos" id="grupo__terminos">
         <label for="terminos" class="formulario__label">
           <input type="checkbox" name="terminos" id="terminos" class="formulario__checkbox">
           Acepto los términos y condiciones 
         </label>
        </div>
 
+       <!-- Grupo: Mensaje -->
        <div class="formulario__mensaje" id="formulario__mensaje">
         <p><b>Error:</b> Por favor rellena el formulario correctamente. </p>
        </div>
 
+       <!-- Grupo: Boton de envio -->
        <div class="formulario__grupo formulario__grupo-btn-enviar">
         <button type="submit" class="formulario__btn">Enviar</button>
         <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente.</p>
        </div>
     </form>
   </main>
+
+  <script src="https://kit.fontawesome.com/a4c5cc7e57.js" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
 </body>
 </html>
