@@ -15,8 +15,7 @@ body {
 }
 
 main{
- 
- max-width: 800px;
+  max-width: 800px;
  width: 90%;
  margin: auto;
  padding: 40px;
@@ -173,5 +172,9 @@ main{
   .formulario__mensaje,
   .formulario__grupo-btn-enviar{
     grid-column: 1;
+  }
+
+  .formulario__btn{
+    width: 100%;
   }
 }
