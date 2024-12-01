@@ -65,15 +65,16 @@ main{
 
 .formulario__input-error-activo{
   display: block;
+  color: #bb2929;
 }
 
 .formulario__validacion-estado{
   position: absolute;
   top: 13px;
-  right:13px;
+  right:18px;
   z-index: 100;
   font-size: 16px;
-  /* opacity: 0; */
+  opacity: 0;
 }
 
 .formulario__checkbox{
